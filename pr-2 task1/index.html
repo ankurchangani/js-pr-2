@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .bill-contant {
+            width: 600px;
+            height: 200px;
+            border-radius: 30px;
+            border: 2px solid cadetblue;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            color: wheat;
+            margin-top: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(171, 120, 120);
+            margin-top: 10PX;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="bill-items">
+            <div class="bill-contant">
+                <h1 id="titel"></h1>
+
+                <hr style="margin-top: 10px;">
+
+                <h2 id="bill"></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bill.js"></script>
+</body>
+
+</html>
